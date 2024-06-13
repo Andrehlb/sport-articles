@@ -1,11 +1,10 @@
-# Projeto Bookstore API
+# sport-articles-api
 
 ![status-projeto](https://img.shields.io/badge/status-desenvolvimento-gree) 
 ![Java-version](https://img.shields.io/badge/java-version_21-blue) ![springboot-version](https://img.shields.io/badge/springboot-version_3.2.1-gree)
 ![license](https://img.shields.io/badge/licence-MIT-gree)
 
-Este projeto é uma API RESTful para o gerenciamento de uma livraria online. O principal objetivo é fornecer uma 
-interface para o cadastro de livros, autores e a realização de compras de livros.
+Este projeto é uma API RESTful para o gerenciamento de artigos esportivos.
 
 
 ## 🪓 Tecnologias Utilizadas
@@ -27,13 +26,6 @@ interface para o cadastro de livros, autores e a realização de compras de livr
 
 | Método HTTP | Rota | Descrição |
 |-------------|------|-----------|
-| POST | /purchases | Cria uma nova compra |
-| GET | /purchases/{id} | Retorna os detalhes de uma compra específica |
-| POST | /books | Cria um novo livro |
-| GET | /books | Lista todos os livros |
-| GET | /books/{id} | Retorna os detalhes de um livro específico |
-| POST | /authors | Cria um novo autor |
-| POST | /states | Cria um novo estado |
-| POST | /countries | Cria um novo país |
-| POST | /categories | Cria uma nova categoria |
-| POST | /coupons | Cria um novo cupom |# sport-articles
+| POST | /product | Cria um novo produto |
+| PUT | /product/{id} | Atualiza um produto existente |
+| GET | /product | Lista todos os produtos |
