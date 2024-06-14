@@ -12,7 +12,7 @@ exec('npm ls --depth=0', (err, stdout, stderr) => {
     if (axiosLine) {
         console.log(`Versão do Axios é: ${axiosLine}`);
     } else {
-        console.log('Axios não encontrado');
+        console.log('Axios não foi encontrado');
     }
 
     console.line(`stderr: ${stderr}`);
